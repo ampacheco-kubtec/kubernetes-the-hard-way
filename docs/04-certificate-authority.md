@@ -37,10 +37,10 @@ cat > ca-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "Kubernetes",
       "OU": "CA",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -79,10 +79,10 @@ cat > admin-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "system:masters",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -123,10 +123,10 @@ cat > ${instance}-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "system:nodes",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -176,10 +176,10 @@ cat > kube-controller-manager-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "system:kube-controller-manager",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -220,10 +220,10 @@ cat > kube-proxy-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "system:node-proxier",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -263,10 +263,10 @@ cat > kube-scheduler-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "system:kube-scheduler",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -315,10 +315,10 @@ cat > kubernetes-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "Kubernetes",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
@@ -363,10 +363,10 @@ cat > service-account-csr.json <<EOF
   "names": [
     {
       "C": "US",
-      "L": "Portland",
+      "L": "Cape Canaveral",
       "O": "Kubernetes",
       "OU": "Kubernetes The Hard Way",
-      "ST": "Oregon"
+      "ST": "Brevard"
     }
   ]
 }
